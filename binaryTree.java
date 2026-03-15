@@ -127,7 +127,6 @@ public class binaryTree {
 
         return sum;
     }
-
     // diameter of the tree
     public static int treeDiameter(Node root) {
         if (root == null) {
