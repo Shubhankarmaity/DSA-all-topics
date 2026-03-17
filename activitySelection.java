@@ -29,7 +29,7 @@ public class activitySelection {
         for(int i=0;i<end.length;i++){
             if(activities[i][1]>=lastEnd){
                 maxAct++;
-                arr.add(activities[i][0]);
+                arr.add(activities[i][0]); 
                 lastEnd=activities[i][2];
             }
         }
