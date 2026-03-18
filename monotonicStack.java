@@ -18,6 +18,7 @@ public class monotonicStack{
         }
         return count;
     }
+    
     public static void main(String[] args) {
         int nums[]={1,2,1,2,1,2};
         System.out.print(minOperations(nums));
