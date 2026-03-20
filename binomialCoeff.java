@@ -7,6 +7,7 @@ public class binomialCoeff {
         }
         return f;
     }
+    
     public static int bincoeff(int n, int r) {
         int fact_n = factorial(n);
         int fact_r = factorial(r);
