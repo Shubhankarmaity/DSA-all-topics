@@ -20,5 +20,6 @@ public class stack2 {
             System.out.print(nextGrater[i] + " ");
         }
         System.out.println();
+        
     }
 }
