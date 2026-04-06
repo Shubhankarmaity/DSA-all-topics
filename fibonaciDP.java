@@ -9,6 +9,7 @@ public class fibonaciDP {
         f[n]=fib(n-1, f)+fib(n-2, f);
         return f[n];
     }
+    //tabulation process
     public static int fibTabulation(int n){
         int dp[]=new int[n+1];
         dp[0]=0;
