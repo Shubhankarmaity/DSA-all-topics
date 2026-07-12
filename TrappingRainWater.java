@@ -22,7 +22,6 @@ public class TrappingRainWater {
             TrappedWater+= waterLevel-height[i];
         }
         System.out.print(TrappedWater);
-
     }
 
     public static void main(String[] args) {
