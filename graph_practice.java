@@ -30,7 +30,18 @@ class graph_practice{
                 }
             }
         }
+    }
 
+    //DFS
+    public static void DFS(ArrayList<Edge>[]graph, int curr, boolean[]vis){
+        System.out.println(curr+" ");
+        vis[curr]=true;
+        for(int i=0;i<graph[curr].size();i++){
+            Edge e=graph[curr].get(i);
+            if(!vis[e.dest]){
+                DFS(graph, e.dest, vis);
+            }
+        }
     }
     public static void main(String[] args) {
         int v=5;
@@ -60,6 +71,9 @@ class graph_practice{
         // }
 
         //BFS
-        BFS(graph);
+        // BFS(graph);
+        //DFS
+        // int vis[]=new int[v];
+        DFS(graph, 0, new boolean[v]);
     }
 }
