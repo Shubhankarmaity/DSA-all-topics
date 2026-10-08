@@ -9,3 +9,9 @@ function maxSubarray(nums){
     return maxSum;
 }
 console.log(maxSubarray([-2,1,-3,4,-1,2,1,-5,4]));
+
+
+function sum(a,b){
+    return a+b;
+}
+console.log(sum(2,5));
